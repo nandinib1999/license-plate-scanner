@@ -1,0 +1,36 @@
+<html>  
+<head>
+<meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>  
+<title>Success</title>  
+</head>  
+<body>
+	<nav class="navbar navbar-inverse" style="background-color: black">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#" style="color: white">License Plate Detector</a>
+	    </div>
+	  </div>
+	</nav>
+	<center>
+	<div class="container">  
+	<br>
+	<br>
+	<div class="card-body">
+	<img src="{{ url_for('send_file', filename=filename)}}" alt="There is some error" class="img-responsive">
+	</div>  
+	<!-- <p>Text Extracted {{name}}</p> -->
+	<div class="card-body" style="background-color: #DCDCDC;">
+	<strong>
+    Text Extracted: {{name}}
+    </strong>
+  	</div>
+	<!-- <div class="d-inline-flex p-2">Text Extracted: {{name}}</div> -->
+	</div>
+	</center>  
+</body>  
+</html>  
