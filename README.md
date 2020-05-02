@@ -24,3 +24,7 @@ Go to ```http://127.0.0.1:5000/```
 ![Browse](https://i.ibb.co/zns645w/browse.jpg)
 ![Output](https://i.ibb.co/gjT1vzM/output.jpg)
 ![Output2](https://i.ibb.co/DpYkQmx/output2.jpg)
+
+## Scope of Improvement
+- For identifying the text on license plate, we can move to a better approach of training YoloV3 for segmenting the characters and then, run a classification model on the segmented areas of the license plate to predict the character.
+- For Web App, handling URL input for images, drag and drop to upload image can also be included.
