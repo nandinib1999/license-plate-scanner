@@ -17,5 +17,10 @@ Using Flask framework, I have created a web app where an image file can be uploa
 
 ## Usage
 The following command can be used to run the web app.
-```python app.py```
+```python app.py```<br>
 Go to ```http://127.0.0.1:5000/```
+
+## Screenshots of Web App
+![Browse](https://i.ibb.co/zns645w/browse.jpg)
+![Output](https://i.ibb.co/gjT1vzM/output.jpg)
+![Output2](https://i.ibb.co/DpYkQmx/output2.jpg)
